@@ -59,7 +59,6 @@ body{
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0, 0.3);
-
 }
 .secao li{
     padding-top: 20px;
@@ -73,6 +72,7 @@ body{
     padding: 20px;
     border-radius: 8px;
     border-left: 5px solid #2b5a9a;
+    margin-bottom: 10px;
 }
 .secao1 {
     background-color: white;
@@ -92,4 +92,169 @@ body{
     
 }
 
+.missao p {
+    line-height: 1.6; /* altura da linha - melhora a leitura de textos longos */
+    margin-bottom: 20px;
+    text-align: justify; /* alinhamento à esquerda e à direita */
 
+}
+.valores ul {
+    list-style: none;
+    padding: 0px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* junto as bordas adjacentes, ficando uma só */
+    margin-top: 20px;
+    background-color: white;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #2a5298;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+
+}
+tr:hover{
+    background-color: #E8E8E8;
+}
+.amarelo {
+ width: 25px; height: 25px; background: yellow;
+}
+.cinza {
+    width: 25px; height: 25px; background: gray;
+}
+.laranja {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+}
+.marrom {
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+}
+.preto {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}
+.rosa{
+    width: 25px;
+    height: 25px;
+    background-color: pink;
+}
+.roxo{
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+}
+.verde{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
+.vermelho{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+.alimentos {
+    list-style: none;
+    background-color: #FDFFA6;
+    border: 2px dashed #e6a15c;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.espaco {
+    padding: 10px;
+}
+.suplemento {
+    background-color: #FFF5F5;
+    border-left: 4px solid #c94a4a;
+    padding: 35px 20px;
+    border-radius: 8px;
+    margin: 30px 0px;
+}
+.leite {
+    padding:0;
+    color: #A16F05;
+    list-style: none;
+}
+.fundo {
+    background-color: #FCFCE8;
+    border-left: 4px solid #FFEF03;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: #1e3c72;
+    font-style: italic;
+    border-top: 5px solid #FFEF03; 
+    margin: 9vh auto auto;
+    padding: 15px;
+    height: 100px;
+}
+
+.timeline{
+    border-left: 3px solid #2a5298;
+    padding-left:20px ;
+    margin-top: 20px;
+}
+.evento {
+    margin-bottom: 25px;
+    position: relative; /* dá o poder de flutuar na página, sem alterar a posição dos outros elementos*/
+
+}
+.evento::before{/* cria um pseudoelemento no CSS - serve para inserir conteúdo decorativo ou informativo logo no inicio de um elemento sem que altere o HTML - elemento fantasma*/
+    content: '';/*sem texto*/
+    width: 12px;
+    height: 12px;
+    background-color: #ff4b2b;
+    border-radius: 50%;/*cria a bolinha*/
+    position: absolute;
+    left: -28px; /*vai para esquerda*/
+    top: 5px;/*abaixa 5px*/
+}
+.grid-locais{
+    display: flex;
+    gap: 20px;
+}
+.local{
+    flex: 1;
+    background: #f8f9fa;
+    padding :15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.formato{
+    padding: 0px ;
+    color: #A16F05;
+    margin: -10px 0px;
+    font-size: 1rem; 
+}
+.formato1 {
+    padding: 0px;
+    color: #A16F05;
+    margin-top: -100px;
+    font-size: 1rem; 
+}
+.card1{
+    background-color: #f0f4f8;
+    border-left:5px solid #2b5a9a ;
+    border-radius:8px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.hh{
+    margin-bottom: -15px;
+}
